@@ -721,9 +721,9 @@ class Resolver(object):
         @param source_port: The port from which to send the message.
         The default is 0.
         @type source_port: int
-		@param return_response_on_nxdomain: return an answer on NXDOMAIN
-		possibly containing NSEC/NSEC3 records. Default is False.
-		@type return_response_on_nxdomain: bool
+        @param return_response_on_nxdomain: return an answer on NXDOMAIN
+        possibly containing NSEC/NSEC3 records. Default is False.
+        @type return_response_on_nxdomain: bool
         @rtype: dns.resolver.Answer instance
         @raises Timeout: no answers could be found in the specified lifetime
         @raises NXDOMAIN: the query name does not exist
