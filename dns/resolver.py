@@ -697,7 +697,7 @@ class Resolver(object):
 
     def query(self, qname, rdtype=dns.rdatatype.A, rdclass=dns.rdataclass.IN,
               tcp=False, source=None, raise_on_no_answer=True, source_port=0,
-			  return_response_on_nxdomain=False):
+              return_response_on_nxdomain=False):
         """Query nameservers to find the answer to the question.
 
         The I{qname}, I{rdtype}, and I{rdclass} parameters may be objects
